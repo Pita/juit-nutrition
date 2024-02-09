@@ -45,7 +45,8 @@ const closeToIdeal = (value: number, ideal: number, minGoal: boolean) => {
   const isBad = minGoal ? diffToIdeal < 0 : diffToIdeal > 0;
 
   return Math.round(
-    SCORE_MAX - (isBad ? Math.abs(diffToIdeal) : Math.abs(diffToIdeal) / 2)
+    SCORE_MAX -
+      Math.min(Math.pow(Math.abs(diffToIdeal), isBad ? 1.5 : 1.0), SCORE_MAX)
   );
 };
 
@@ -66,17 +67,15 @@ const scoreDish = (dish: Dish): ScoredDish => {
   const proteinScore = closeToIdeal(dish.protein, minGoals.protein, true);
   const fiberScore = closeToIdeal(dish.fiber, minGoals.fiber, true);
 
-  //   console.log(dish.title, energy, fat, sugar, salt, protein, fiber);
-
   const score = Math.abs(
     Math.round(
       (energyScore +
         fatScore +
         saturatedFatScore +
         carbohydrateScore +
-        proteinScore * 2 +
-        fiberScore * 2) /
-        8
+        proteinScore +
+        fiberScore) /
+        6
     )
   );
 
@@ -129,34 +128,39 @@ const cleanedEntries = entries
     console.log(
       label("energy"),
       percentageOfIdeal(dish.energy, maxGoals.energy),
+      "score:",
       dish.energyScore
     );
     console.log(
       label("fat"),
       percentageOfIdeal(dish.fat, maxGoals.fat),
+      "score:",
       dish.fatScore
     );
     console.log(
       label("saturated fat"),
       percentageOfIdeal(dish.saturatedFat, maxGoals.saturatedFat),
+      "score:",
       dish.saturatedFatScore
     );
 
     console.log(
       label("carbohydrate"),
       percentageOfIdeal(dish.carbohydrate, maxGoals.carbohydrate),
+      "score:",
       dish.carbohydrateScore
     );
-    // console.log(label("salt"), percentageOfIdeal(dish.salt, maxGoals.salt));
     console.log();
     console.log(
       label("protein"),
       percentageOfIdeal(dish.protein, minGoals.protein),
+      "score:",
       dish.proteinScore
     );
     console.log(
       label("fiber"),
       percentageOfIdeal(dish.fiber, minGoals.fiber),
+      "score:",
       dish.fiberScore
     );
 
