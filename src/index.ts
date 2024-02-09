@@ -28,7 +28,7 @@ interface Dish {
   saturatedFat: number;
 }
 
-interface ScoredDish extends Dish {
+export interface ScoredDish extends Dish {
   score: number;
   energyScore: number;
   fatScore: number;
@@ -50,6 +50,21 @@ const closeToIdeal = (value: number, ideal: number, minGoal: boolean) => {
   );
 };
 
+function calculateAverageAndDeviation(numbers: number[]): {
+  average: number;
+  averageDeviation: number;
+} {
+  // Calculate the average
+  let sum = numbers.reduce((a, b) => a + b, 0);
+  let average = sum / numbers.length;
+
+  // Calculate the average deviation
+  let sumOfDeviations = numbers.reduce((a, b) => a + Math.abs(b - average), 0);
+  let averageDeviation = sumOfDeviations / numbers.length;
+
+  return { average, averageDeviation };
+}
+
 const scoreDish = (dish: Dish): ScoredDish => {
   const energyScore = closeToIdeal(dish.energy, maxGoals.energy, false);
   const fatScore = closeToIdeal(dish.fat, maxGoals.fat, false);
@@ -67,17 +82,37 @@ const scoreDish = (dish: Dish): ScoredDish => {
   const proteinScore = closeToIdeal(dish.protein, minGoals.protein, true);
   const fiberScore = closeToIdeal(dish.fiber, minGoals.fiber, true);
 
-  const score = Math.abs(
-    Math.round(
-      (energyScore +
-        fatScore +
-        saturatedFatScore +
-        carbohydrateScore +
-        proteinScore +
-        fiberScore) /
-        6
-    )
-  );
+  const { average, averageDeviation } = calculateAverageAndDeviation([
+    energyScore,
+    fatScore,
+    carbohydrateScore,
+    saturatedFatScore,
+    proteinScore,
+    fiberScore,
+  ]);
+
+  const score = Math.max(Math.round(average - averageDeviation), 0);
+
+  //   const averageScore = Math.round(
+  //     (energyScore +
+  //       fatScore +
+  //       saturatedFatScore +
+  //       carbohydrateScore +
+  //       proteinScore +
+  //       fiberScore) /
+  //       6
+  //   );
+
+  //   const worstScore = Math.min(
+  //     energyScore,
+  //     fatScore,
+  //     saturatedFatScore,
+  //     carbohydrateScore,
+  //     proteinScore,
+  //     fiberScore
+  //   );
+
+  //   const score = Math.round((averageScore + worstScore) / 2);
 
   return {
     ...dish,
@@ -103,7 +138,7 @@ const percentageOfIdeal = (value: number, ideal: number) => {
 const label = (label: string) => label.padStart(20, " ") + ": ";
 const SCORE_MAX = 100;
 
-const cleanedEntries = entries
+export const cleanedEntries = entries
   .filter((entry) => entry.fields.energy !== undefined)
   .map((entry): Dish => {
     const factor = entry.fields.weight! / 100;
@@ -121,8 +156,10 @@ const cleanedEntries = entries
     };
   })
   .map(scoreDish)
-  .sort((a, b) => b.score - a.score)
-  .forEach((dish, i) => {
+  .sort((a, b) => b.score - a.score);
+
+function main() {
+  cleanedEntries.forEach((dish, i) => {
     console.log(`${i + 1}) "${dish.title}", score: ${dish.score}`);
     console.log();
     console.log(
@@ -167,5 +204,10 @@ const cleanedEntries = entries
     console.log();
     console.log();
   });
+}
+
+if (require.main === module) {
+  main();
+}
 
 // console.log(cleanedEntries, cleanedEntries.length);

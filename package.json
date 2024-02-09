@@ -4,6 +4,7 @@
     "typescript": "^5.3.3"
   },
   "scripts": {
-    "start": "ts-node -T src/index.ts"
+    "start": "ts-node -T src/index.ts | tee results.txt",
+    "order": "ts-node -T src/order.ts"
   }
 }
