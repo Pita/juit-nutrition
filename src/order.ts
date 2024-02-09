@@ -1,12 +1,21 @@
 import { ScoredDish, cleanedEntries } from ".";
 
+function powScore(score: number): number {
+  return Math.pow(Math.max(score, 0), 2);
+}
+
 function weightedRandomPick(
-  elements: ScoredDish[],
+  _elements: ScoredDish[],
   pickCount: number
 ): Map<ScoredDish, number> {
-  if (elements.length < pickCount) {
+  if (_elements.length < pickCount) {
     throw new Error("Not enough elements to pick from");
   }
+
+  const elements = _elements.map((element) => ({
+    ...element,
+    score: powScore(element.score),
+  }));
 
   // Calculate the total score
   const totalScore = elements.reduce((sum, element) => sum + element.score, 0);
@@ -44,7 +53,7 @@ function weightedRandomPick(
     })!;
 
     const currentCount = picked.get(pickedScoredDish.element) ?? 0;
-    if (currentCount < 2) {
+    if (currentCount < 1) {
       picked.set(pickedScoredDish.element, currentCount + 1);
       pickedNum++;
     }
@@ -53,8 +62,11 @@ function weightedRandomPick(
   return picked;
 }
 
-Array.from(weightedRandomPick(cleanedEntries, 20).entries())
-  .sort((a, b) => b[1] - a[1])
-  .forEach(([dish, count]) => {
-    console.log(`${count}x "${dish.title}"`);
-  });
+const bestDishes = cleanedEntries.slice(0, 5).map((dish) => [dish, 2] as const);
+const randomDishes = Array.from(
+  weightedRandomPick(cleanedEntries.slice(5), 10).entries()
+);
+
+[...bestDishes, ...randomDishes].map(([dish, count]) => {
+  console.log(`${count}x "${dish.title}"`);
+});

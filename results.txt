@@ -1,4 +1,4 @@
-1) "Golden Protein Bowl ", score: 84
+1) "Golden Protein Bowl ", score: 92
 
               energy:  34% (+ 1%) score: 99
                  fat:  41% (+ 8%) score: 78
@@ -9,7 +9,7 @@
                fiber:  26% (- 7%) score: 83
 
 
-2) "Argentina Beef & Beans", score: 75
+2) "Argentina Beef & Beans", score: 85
 
               energy:  26% (- 7%) score: 93
                  fat:  31% (- 2%) score: 98
@@ -20,7 +20,7 @@
                fiber:  21% (-12%) score: 59
 
 
-3) "Zitronenhähnchen mit geröstetem Brokkoli", score: 74
+3) "Zitronenhähnchen mit geröstetem Brokkoli", score: 85
 
               energy:  24% (- 9%) score: 91
                  fat:  22% (-11%) score: 89
@@ -31,18 +31,7 @@
                fiber:  21% (-12%) score: 59
 
 
-4) "Protein Rainbowl ", score: 72
-
-              energy:  34% (+ 1%) score: 99
-                 fat:  42% (+ 9%) score: 71
-       saturated fat:  20% (-13%) score: 87
-        carbohydrate:  43% (+10%) score: 68
-
-             protein:  25% (- 8%) score: 77
-               fiber:  34% (+ 1%) score: 99
-
-
-5) "Buffalo BBQ Chicken", score: 71
+4) "Buffalo BBQ Chicken", score: 85
 
               energy:  38% (+ 5%) score: 90
                  fat:  39% (+ 6%) score: 85
@@ -53,18 +42,18 @@
                fiber:  18% (-15%) score: 44
 
 
-6) "No Chicken BBQ ", score: 67
+5) "Protein Rainbowl ", score: 84
 
-              energy:  23% (-10%) score: 90
-                 fat:  29% (- 4%) score: 96
-       saturated fat:  10% (-23%) score: 77
-        carbohydrate:  22% (-11%) score: 89
+              energy:  34% (+ 1%) score: 99
+                 fat:  42% (+ 9%) score: 71
+       saturated fat:  20% (-13%) score: 87
+        carbohydrate:  43% (+10%) score: 68
 
-             protein:  23% (-10%) score: 66
-               fiber:  21% (-12%) score: 59
+             protein:  25% (- 8%) score: 77
+               fiber:  34% (+ 1%) score: 99
 
 
-7) "Tandoori Chicken", score: 65
+6) "Tandoori Chicken", score: 83
 
               energy:  26% (- 7%) score: 93
                  fat:  20% (-13%) score: 87
@@ -75,29 +64,18 @@
                fiber:  16% (-17%) score: 29
 
 
-8) "No Chicken Tikka Masala ", score: 63
+7) "No Chicken BBQ ", score: 80
 
-              energy:  29% (- 4%) score: 96
-                 fat:  37% (+ 4%) score: 91
-       saturated fat:  46% (+13%) score: 54
-        carbohydrate:  35% (+ 2%) score: 98
-
-             protein:  22% (-11%) score: 62
-               fiber:  24% (- 9%) score: 72
-
-
-9) "Pulled Chicken", score: 62
-
-              energy:  25% (- 8%) score: 92
+              energy:  23% (-10%) score: 90
                  fat:  29% (- 4%) score: 96
-       saturated fat:  15% (-18%) score: 82
-        carbohydrate:  32% (- 1%) score: 99
+       saturated fat:  10% (-23%) score: 77
+        carbohydrate:  22% (-11%) score: 89
 
-             protein:  22% (-11%) score: 62
-               fiber:  18% (-15%) score: 44
+             protein:  23% (-10%) score: 66
+               fiber:  21% (-12%) score: 59
 
 
-10) "Hähnchenwürfel mit Mais-Frischkäsemash", score: 61
+8) "Hähnchenwürfel mit Mais-Frischkäsemash", score: 80
 
               energy:  23% (-10%) score: 90
                  fat:  27% (- 6%) score: 94
@@ -108,7 +86,29 @@
                fiber:  16% (-17%) score: 29
 
 
-11) "Linguini con Pollo", score: 59
+9) "No Chicken Tikka Masala ", score: 79
+
+              energy:  29% (- 4%) score: 96
+                 fat:  37% (+ 4%) score: 91
+       saturated fat:  46% (+13%) score: 54
+        carbohydrate:  35% (+ 2%) score: 98
+
+             protein:  22% (-11%) score: 62
+               fiber:  24% (- 9%) score: 72
+
+
+10) "Pulled Chicken", score: 79
+
+              energy:  25% (- 8%) score: 92
+                 fat:  29% (- 4%) score: 96
+       saturated fat:  15% (-18%) score: 82
+        carbohydrate:  32% (- 1%) score: 99
+
+             protein:  22% (-11%) score: 62
+               fiber:  18% (-15%) score: 44
+
+
+11) "Linguini con Pollo", score: 78
 
               energy:  29% (- 4%) score: 96
                  fat:  17% (-16%) score: 84
@@ -119,29 +119,7 @@
                fiber:  18% (-15%) score: 44
 
 
-12) "Hackbällchen à la Siziliana", score: 56
-
-              energy:  29% (- 4%) score: 96
-                 fat:  22% (-11%) score: 89
-       saturated fat:  15% (-18%) score: 82
-        carbohydrate:  44% (+11%) score: 64
-
-             protein:  27% (- 6%) score: 84
-               fiber:  16% (-17%) score: 29
-
-
-13) "Kräuterhähnchen ", score: 54
-
-              energy:  28% (- 5%) score: 95
-                 fat:  19% (-14%) score: 86
-       saturated fat:   5% (-28%) score: 72
-        carbohydrate:  45% (+12%) score: 60
-
-             protein:  31% (- 2%) score: 97
-               fiber:  16% (-17%) score: 29
-
-
-14) "Linguini mit Schweine-Medaillons", score: 51
+12) "Linguini mit Schweine-Medaillons", score: 75
 
               energy:  32% (- 1%) score: 99
                  fat:  25% (- 8%) score: 92
@@ -152,7 +130,7 @@
                fiber:  18% (-15%) score: 44
 
 
-15) "Chicken mit Pumpkin-Mash", score: 50
+13) "Chicken mit Pumpkin-Mash", score: 74
 
               energy:  22% (-11%) score: 89
                  fat:  27% (- 6%) score: 94
@@ -160,10 +138,32 @@
         carbohydrate:  18% (-15%) score: 85
 
              protein:  30% (- 3%) score: 95
-               fiber:  11% (-22%) score: 0
+               fiber:  11% (-22%) score: -7
 
 
-16) "Zitronige Pilz-Pasta", score: 48
+14) "Hackbällchen à la Siziliana", score: 74
+
+              energy:  29% (- 4%) score: 96
+                 fat:  22% (-11%) score: 89
+       saturated fat:  15% (-18%) score: 82
+        carbohydrate:  44% (+11%) score: 64
+
+             protein:  27% (- 6%) score: 84
+               fiber:  16% (-17%) score: 29
+
+
+15) "Kräuterhähnchen ", score: 73
+
+              energy:  28% (- 5%) score: 95
+                 fat:  19% (-14%) score: 86
+       saturated fat:   5% (-28%) score: 72
+        carbohydrate:  45% (+12%) score: 60
+
+             protein:  31% (- 2%) score: 97
+               fiber:  16% (-17%) score: 29
+
+
+16) "Zitronige Pilz-Pasta", score: 70
 
               energy:  25% (- 8%) score: 92
                  fat:  22% (-11%) score: 89
@@ -174,7 +174,7 @@
                fiber:  21% (-12%) score: 59
 
 
-17) "Hähnchen Paella Verde", score: 47
+17) "Hähnchen Paella Verde", score: 69
 
               energy:  26% (- 7%) score: 93
                  fat:  19% (-14%) score: 86
@@ -182,21 +182,10 @@
         carbohydrate:  38% (+ 5%) score: 87
 
              protein:  27% (- 6%) score: 84
-               fiber:  11% (-22%) score: 0
+               fiber:  11% (-22%) score: -7
 
 
-18) "Pennette Walnuss-Pesto", score: 42
-
-              energy:  46% (+13%) score: 55
-                 fat:  76% (+43%) score: 0
-       saturated fat:  26% (- 7%) score: 93
-        carbohydrate:  38% (+ 5%) score: 87
-
-             protein:  35% (+ 2%) score: 98
-               fiber:  32% (- 1%) score: 98
-
-
-19) "Pulled Lachs Teriyaki-Style", score: 42
+18) "Pulled Lachs Teriyaki-Style", score: 66
 
               energy:  31% (- 2%) score: 98
                  fat:  39% (+ 6%) score: 85
@@ -207,7 +196,18 @@
                fiber:  13% (-20%) score: 12
 
 
-20) "Lammragout", score: 42
+19) "Linsenbolognese", score: 65
+
+              energy:  34% (+ 1%) score: 99
+                 fat:  37% (+ 4%) score: 91
+       saturated fat:  10% (-23%) score: 77
+        carbohydrate:  55% (+22%) score: -6
+
+             protein:  18% (-15%) score: 39
+               fiber:  42% (+ 9%) score: 91
+
+
+20) "Lammragout", score: 65
 
               energy:  27% (- 6%) score: 94
                  fat:  14% (-19%) score: 81
@@ -215,10 +215,10 @@
         carbohydrate:  45% (+12%) score: 60
 
              protein:  27% (- 6%) score: 84
-               fiber:  11% (-22%) score: 0
+               fiber:  11% (-22%) score: -7
 
 
-21) "Linguini mit Kräutergarnelen", score: 36
+21) "Linguini mit Kräutergarnelen", score: 62
 
               energy:  32% (- 1%) score: 99
                  fat:  37% (+ 4%) score: 91
@@ -229,29 +229,7 @@
                fiber:  16% (-17%) score: 29
 
 
-22) "Linsenbolognese", score: 35
-
-              energy:  34% (+ 1%) score: 99
-                 fat:  37% (+ 4%) score: 91
-       saturated fat:  10% (-23%) score: 77
-        carbohydrate:  55% (+22%) score: 0
-
-             protein:  18% (-15%) score: 39
-               fiber:  42% (+ 9%) score: 91
-
-
-23) "Köttbullar mit Preiselbeersoße", score: 30
-
-              energy:  33% (- 0%) score: 100
-                 fat:  48% (+15%) score: 45
-       saturated fat:  56% (+23%) score: 0
-        carbohydrate:  37% (+ 4%) score: 92
-
-             protein:  23% (-10%) score: 70
-               fiber:  18% (-15%) score: 44
-
-
-24) "Beef-Chili ", score: 27
+22) "Beef-Chili ", score: 58
 
               energy:  31% (- 2%) score: 98
                  fat:  29% (- 4%) score: 96
@@ -259,65 +237,43 @@
         carbohydrate:  52% (+19%) score: 20
 
              protein:  25% (- 8%) score: 77
-               fiber:   8% (-25%) score: 0
+               fiber:   8% (-25%) score: -26
 
 
-25) "Linguini mit Hokkaido-Kürbis", score: 23
+23) "Köttbullar mit Preiselbeersoße", score: 57
+
+              energy:  33% (- 0%) score: 100
+                 fat:  48% (+15%) score: 45
+       saturated fat:  56% (+23%) score: -11
+        carbohydrate:  37% (+ 4%) score: 92
+
+             protein:  23% (-10%) score: 70
+               fiber:  18% (-15%) score: 44
+
+
+24) "Linguini mit Hokkaido-Kürbis", score: 53
 
               energy:  32% (- 1%) score: 99
                  fat:  27% (- 6%) score: 94
        saturated fat:  36% (+ 3%) score: 96
-        carbohydrate:  60% (+27%) score: 0
+        carbohydrate:  60% (+27%) score: -40
 
              protein:  15% (-18%) score: 24
                fiber:  18% (-15%) score: 44
 
 
-26) "Blumenkohlcurry Aloo Gobi", score: 19
+25) "Blumenkohlcurry Aloo Gobi", score: 47
 
               energy:  24% (- 9%) score: 91
                  fat:  36% (+ 3%) score: 96
-       saturated fat:  61% (+28%) score: 0
+       saturated fat:  61% (+28%) score: -50
         carbohydrate:  32% (- 1%) score: 99
 
-             protein:   9% (-24%) score: 0
+             protein:   9% (-24%) score: -16
                fiber:  21% (-12%) score: 59
 
 
-27) "Rotes Thai-Curry Veggie-Lover", score: 19
-
-              energy:  36% (+ 3%) score: 96
-                 fat:  59% (+26%) score: 0
-       saturated fat:  77% (+44%) score: 0
-        carbohydrate:  36% (+ 3%) score: 94
-
-             protein:  23% (-10%) score: 70
-               fiber:  26% (- 7%) score: 83
-
-
-28) "Spinat-Curry Veggie Palak", score: 15
-
-              energy:  39% (+ 6%) score: 86
-                 fat:  59% (+26%) score: 0
-       saturated fat:  117% (+84%) score: 0
-        carbohydrate:  38% (+ 5%) score: 87
-
-             protein:  28% (- 5%) score: 90
-               fiber:  18% (-15%) score: 44
-
-
-29) "Ratatouille & Feta", score: 14
-
-              energy:  25% (- 8%) score: 92
-                 fat:  41% (+ 8%) score: 78
-       saturated fat:  66% (+33%) score: 0
-        carbohydrate:  25% (- 8%) score: 92
-
-             protein:  16% (-17%) score: 29
-               fiber:  13% (-20%) score: 12
-
-
-30) "Garnelen-Risotto ", score: 12
+26) "Garnelen-Risotto ", score: 47
 
               energy:  35% (+ 2%) score: 97
                  fat:  54% (+21%) score: 1
@@ -325,61 +281,105 @@
         carbohydrate:  45% (+12%) score: 60
 
              protein:  17% (-16%) score: 34
-               fiber:  11% (-22%) score: 0
+               fiber:  11% (-22%) score: -7
 
 
-31) "Linguini Avocado-Limette", score: 3
+27) "Pennette Walnuss-Pesto", score: 41
 
-              energy:  51% (+18%) score: 22
-                 fat:  78% (+45%) score: 0
-       saturated fat:  36% (+ 3%) score: 96
-        carbohydrate:  57% (+24%) score: 0
+              energy:  46% (+13%) score: 55
+                 fat:  76% (+43%) score: -186
+       saturated fat:  26% (- 7%) score: 93
+        carbohydrate:  38% (+ 5%) score: 87
 
-             protein:  33% (- 0%) score: 100
-               fiber:  16% (-17%) score: 29
-
-
-32) "Mac and Chicken", score: 1
-
-              energy:  51% (+18%) score: 23
-                 fat:  76% (+43%) score: 0
-       saturated fat:  128% (+95%) score: 0
-        carbohydrate:  53% (+20%) score: 10
-
-             protein:  40% (+ 7%) score: 93
-               fiber:  21% (-12%) score: 59
+             protein:  35% (+ 2%) score: 98
+               fiber:  32% (- 1%) score: 98
 
 
-33) "Getrüffelte Pasta", score: 0
+28) "Ratatouille & Feta", score: 35
+
+              energy:  25% (- 8%) score: 92
+                 fat:  41% (+ 8%) score: 78
+       saturated fat:  66% (+33%) score: -92
+        carbohydrate:  25% (- 8%) score: 92
+
+             protein:  16% (-17%) score: 29
+               fiber:  13% (-20%) score: 12
+
+
+29) "Rotes Thai-Curry Veggie-Lover", score: 20
+
+              energy:  36% (+ 3%) score: 96
+                 fat:  59% (+26%) score: -36
+       saturated fat:  77% (+44%) score: -187
+        carbohydrate:  36% (+ 3%) score: 94
+
+             protein:  23% (-10%) score: 70
+               fiber:  26% (- 7%) score: 83
+
+
+30) "Getrüffelte Pasta", score: 13
 
               energy:  42% (+ 9%) score: 74
                  fat:  54% (+21%) score: 1
-       saturated fat:  61% (+28%) score: 0
-        carbohydrate:  61% (+28%) score: 0
+       saturated fat:  61% (+28%) score: -50
+        carbohydrate:  61% (+28%) score: -46
 
              protein:  20% (-13%) score: 53
                fiber:  18% (-15%) score: 44
 
 
-34) "Pennette Feta", score: 0
+31) "Linguini Avocado-Limette", score: 5
+
+              energy:  51% (+18%) score: 22
+                 fat:  78% (+45%) score: -203
+       saturated fat:  36% (+ 3%) score: 96
+        carbohydrate:  57% (+24%) score: -17
+
+             protein:  33% (- 0%) score: 100
+               fiber:  16% (-17%) score: 29
+
+
+32) "Pennette Feta", score: -5
 
               energy:  48% (+15%) score: 41
-                 fat:  73% (+40%) score: 0
-       saturated fat:  66% (+33%) score: 0
-        carbohydrate:  55% (+22%) score: 0
+                 fat:  73% (+40%) score: -153
+       saturated fat:  66% (+33%) score: -92
+        carbohydrate:  55% (+22%) score: -6
 
              protein:  27% (- 6%) score: 84
                fiber:  39% (+ 6%) score: 94
 
 
-35) "Pasta Avocado-Basilikum ", score: 0
+33) "Pasta Avocado-Basilikum ", score: -38
 
-              energy:  62% (+29%) score: 0
-                 fat:  73% (+40%) score: 0
+              energy:  62% (+29%) score: -59
+                 fat:  73% (+40%) score: -153
        saturated fat:  51% (+18%) score: 24
-        carbohydrate:  78% (+45%) score: 0
+        carbohydrate:  78% (+45%) score: -199
 
              protein:  27% (- 6%) score: 84
                fiber:  24% (- 9%) score: 72
+
+
+34) "Spinat-Curry Veggie Palak", score: -67
+
+              energy:  39% (+ 6%) score: 86
+                 fat:  59% (+26%) score: -36
+       saturated fat:  117% (+84%) score: -675
+        carbohydrate:  38% (+ 5%) score: 87
+
+             protein:  28% (- 5%) score: 90
+               fiber:  18% (-15%) score: 44
+
+
+35) "Mac and Chicken", score: -137
+
+              energy:  51% (+18%) score: 23
+                 fat:  76% (+43%) score: -186
+       saturated fat:  128% (+95%) score: -819
+        carbohydrate:  53% (+20%) score: 10
+
+             protein:  40% (+ 7%) score: 93
+               fiber:  21% (-12%) score: 59
 
 

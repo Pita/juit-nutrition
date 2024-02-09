@@ -21,7 +21,6 @@ interface Dish {
   energy: number;
   fat: number;
   protein: number;
-  // sugar: number;
   carbohydrate: number;
   salt: number;
   fiber: number;
@@ -45,24 +44,14 @@ const closeToIdeal = (value: number, ideal: number, minGoal: boolean) => {
   const isBad = minGoal ? diffToIdeal < 0 : diffToIdeal > 0;
 
   return Math.round(
-    SCORE_MAX -
-      Math.min(Math.pow(Math.abs(diffToIdeal), isBad ? 1.5 : 1.0), SCORE_MAX)
+    SCORE_MAX - Math.pow(Math.abs(diffToIdeal), isBad ? 1.5 : 1.0)
   );
 };
 
-function calculateAverageAndDeviation(numbers: number[]): {
-  average: number;
-  averageDeviation: number;
-} {
-  // Calculate the average
-  let sum = numbers.reduce((a, b) => a + b, 0);
-  let average = sum / numbers.length;
-
+function calculateDeviation(numbers: number[]): number {
   // Calculate the average deviation
-  let sumOfDeviations = numbers.reduce((a, b) => a + Math.abs(b - average), 0);
-  let averageDeviation = sumOfDeviations / numbers.length;
-
-  return { average, averageDeviation };
+  let sumOfDeviations = numbers.reduce((a, b) => a + Math.abs(b - 100), 0);
+  return sumOfDeviations / numbers.length;
 }
 
 const scoreDish = (dish: Dish): ScoredDish => {
@@ -82,37 +71,17 @@ const scoreDish = (dish: Dish): ScoredDish => {
   const proteinScore = closeToIdeal(dish.protein, minGoals.protein, true);
   const fiberScore = closeToIdeal(dish.fiber, minGoals.fiber, true);
 
-  const { average, averageDeviation } = calculateAverageAndDeviation([
-    energyScore,
-    fatScore,
-    carbohydrateScore,
-    saturatedFatScore,
-    proteinScore,
-    fiberScore,
-  ]);
-
-  const score = Math.max(Math.round(average - averageDeviation), 0);
-
-  //   const averageScore = Math.round(
-  //     (energyScore +
-  //       fatScore +
-  //       saturatedFatScore +
-  //       carbohydrateScore +
-  //       proteinScore +
-  //       fiberScore) /
-  //       6
-  //   );
-
-  //   const worstScore = Math.min(
-  //     energyScore,
-  //     fatScore,
-  //     saturatedFatScore,
-  //     carbohydrateScore,
-  //     proteinScore,
-  //     fiberScore
-  //   );
-
-  //   const score = Math.round((averageScore + worstScore) / 2);
+  const score = Math.round(
+    100 -
+      calculateDeviation([
+        energyScore,
+        fatScore,
+        carbohydrateScore,
+        saturatedFatScore,
+        proteinScore,
+        fiberScore,
+      ])
+  );
 
   return {
     ...dish,
