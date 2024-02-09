@@ -1,6 +1,6 @@
 # Juit Nutriton
 
-Just a bit of code to figure out which Juit products fill best my nutrient needs to be able to order the perfect combination of food. I tried to rank the food from best to worst.
+Just a bit of code to figure out which [Juit](https://www.juit.com/) products fill best my nutrient needs to be able to order the perfect combination of food. I tried to rank the food from best to worst.
 
 Results can be seen in [results.txt](./results.txt)
 
